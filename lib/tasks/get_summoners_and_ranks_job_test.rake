@@ -1,3 +1,0 @@
-namespace :riot do
-  
-end
