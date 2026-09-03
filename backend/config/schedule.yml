@@ -1,0 +1,9 @@
+get_summoners_and_ranks_job:
+  cron: "0 0 * * *"
+  class: "GetSummonersAndRanksJob"
+  queue: default
+
+get_match_data_job:
+  cron: "0 0 * * *"
+  class: "GetMatchDataJob"
+  queue: default
